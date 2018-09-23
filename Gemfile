@@ -26,6 +26,9 @@ gem 'faker', '~> 1.8.7'
 # Semantic UI Css library
 gem 'semantic-ui-sass'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem "react_on_rails", "11.0.0"
+gem "webpacker", "~> 3"
+gem 'mini_racer', platforms: :ruby
 
 
 group :development, :test do
